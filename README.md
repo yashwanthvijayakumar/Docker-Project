@@ -1,4 +1,9 @@
 Form Submission App with MongoDB and Docker
+STEPS TO RUN AND VIEW:
+1. docker-compose up --build
+2. enter data in the forms and submit    ----localhost:8080
+3. backend and data information  -----localhost:3000/submission
+4. go to mongoDB and ADD CONNECTION - give the IP address:27017 and CONNECT
 
 This project is a complete web-based form submission system that allows users to submit their Name, Email, and Message. The data is stored in a MongoDB database, and the project is fully containerized using Docker for easy setup and deployment.
 
